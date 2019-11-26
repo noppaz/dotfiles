@@ -9,10 +9,10 @@ brew 'coreutils'
 brew 'mas' # Mac App Store manager
 
 # Development
-brew 'docker'
 brew 'docker-compose'
 brew 'heroku'
 brew 'go'
+cask 'docker'
 cask 'iterm2'
 cask 'anaconda'
 cask 'tableplus'
