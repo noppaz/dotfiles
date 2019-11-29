@@ -20,9 +20,8 @@ mkdir $HOME/Sites
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
-# Symlink git config files
+# Symlink git config file
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
-ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 
 # Disable conda base environment default activation
 /usr/local/anaconda3/bin/conda config --set auto_activate_base False

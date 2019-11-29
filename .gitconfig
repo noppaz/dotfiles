@@ -1,0 +1,9 @@
+[core]
+	excludesfile = /Users/noah/.dotfiles/.gitignore_global
+	editor = code --wait --new-window
+[user]
+	name = Noah Holm
+	email = 32292420+noppaz@users.noreply.github.com
+	signingkey = 81B94F7C4B5AD051
+[commit]
+	gpgsign = true
