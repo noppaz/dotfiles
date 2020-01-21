@@ -31,5 +31,11 @@ mkdir $HOME/go
 go get golang.org/x/tools/cmd/godoc
 go get github.com/golang/lint/golint
 
+# Add Docker Desktop ZSH completion
+docker_etc=/Applications/Docker.app/Contents/Resources/etc
+ln -s $docker_etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
+ln -s $docker_etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
+ln -s $docker_etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
+
 # Set macOS preferences - reloads shell
 source .macos
