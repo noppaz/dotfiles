@@ -20,6 +20,7 @@ cask 'tableplus'
 # Apps
 cask 'sublime-text'
 cask 'visual-studio-code'
+cask 'postman'
 cask 'lastpass'
 cask '1password'
 cask 'gpg-suite-no-mail'
