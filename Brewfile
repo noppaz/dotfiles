@@ -9,6 +9,7 @@ brew 'coreutils'
 brew 'mas' # Mac App Store manager
 
 # Development
+brew 'git'
 brew 'docker-compose'
 brew 'heroku'
 brew 'go'
