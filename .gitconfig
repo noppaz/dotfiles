@@ -1,5 +1,5 @@
 [core]
-	excludesfile = $HOME/.dotfiles/.gitignore_global
+	excludesfile = ~/.dotfiles/.gitignore_global
 	editor = code --wait --new-window
 [user]
 	name = Noah Holm
