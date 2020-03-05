@@ -1,0 +1,2 @@
+# In this file you can puth PATH exports like path.zsh which you don't want to install immediately on a fresh computer.
+path.local.zsh

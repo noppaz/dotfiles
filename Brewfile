@@ -15,7 +15,6 @@ brew 'heroku'
 brew 'go'
 cask 'docker'
 cask 'iterm2'
-cask 'anaconda'
 cask 'tableplus'
 
 # Apps
