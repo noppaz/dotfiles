@@ -9,7 +9,7 @@
 
 # IDE #
 ############
-.vscode/*
+.vscode/
 
 # Packages #
 ############
