@@ -17,11 +17,10 @@ brew 'pyenv'
 brew 'pipenv'
 cask 'docker'
 cask 'iterm2'
-cask 'tableplus'
 
 # Apps
-cask 'sublime-text'
 cask 'visual-studio-code'
+cask 'tableplus'
 cask 'postman'
 cask 'lastpass'
 cask '1password'
