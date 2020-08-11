@@ -23,9 +23,6 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink git config file
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
-# Disable conda base environment default activation
-/usr/local/anaconda3/bin/conda config --set auto_activate_base False
-
 # Add Golang folders
 mkdir $HOME/go
 go get golang.org/x/tools/cmd/godoc
