@@ -1,2 +1,3 @@
-# In this file you can puth PATH exports like path.zsh which you don't want to install immediately on a fresh computer.
-path.local.zsh
+# In this file you can puth exports, aliases, evals and such which you don't want to install immediately on a fresh computer
+# Oh My Zsh will load all files with .zsh
+config.local.zsh
