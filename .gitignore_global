@@ -9,7 +9,8 @@
 
 # IDE #
 ############
-.vscode/
+.vscode
+.metals
 
 # Packages #
 ############
