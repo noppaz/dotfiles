@@ -4,6 +4,10 @@ export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # Postgres.app binaries path
-export PATH="/Applications/Postgres.app/Contents/Versions/12/bin:$PATH"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/12/bin"
 
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PATH:$PYENV_ROOT/bin"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
