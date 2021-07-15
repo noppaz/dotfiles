@@ -1,41 +1,40 @@
 # Taps
-tap 'homebrew/cask'
 tap 'heroku/brew'
+tap 'homebrew/cask'
 
-# Binaries
-brew 'wget'
-brew 'tree'
-brew 'coreutils'
+# Formulas
 brew 'awscli'
-brew 'mas'
-
-# Development
+brew 'coreutils'
 brew 'git'
-brew 'heroku'
 brew 'go'
-brew 'pyenv'
-brew 'pipenv'
-brew 'openjdk'
+brew 'heroku'
+brew 'mas'
 brew 'maven'
-brew 'scala'
+brew 'openjdk'
+brew 'parquet-tools'
+brew 'pipenv'
+brew 'pyenv'
 brew 'sbt'
+brew 'scala'
+brew 'tree'
+brew 'wget'
 
-# Apps
-cask 'visual-studio-code'
-cask 'iterm2'
-cask 'docker'
-cask 'postgres'
-cask 'atom'
-cask 'postman'
-cask 'tableplus'
-cask 'lastpass'
-cask 'authy'
+# Casks
 cask '1password'
-cask 'gpg-suite-no-mail'
+cask 'atom'
+cask 'authy'
 cask 'cheatsheet'
+cask 'docker'
 cask 'google-chrome'
+cask 'gpg-suite-no-mail'
+cask 'iterm2'
+cask 'lastpass'
+cask 'postgres'
+cask 'postman'
 cask 'slack'
 cask 'spotify'
+cask 'tableplus'
+cask 'visual-studio-code'
 
 # App Store items
 mas 'Magnet', id: 441258766
