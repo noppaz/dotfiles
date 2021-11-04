@@ -10,7 +10,7 @@ alias library="cd $HOME/Library"
 # Docker
 alias dps="docker ps"
 alias dpsa="docker ps -a"
-alias dc="docker-compose"
+alias dc="docker compose"
 
 # Git
 alias commit="git add . && git commit -m"
