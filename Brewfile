@@ -23,7 +23,6 @@ brew 'yq'
 
 # Casks
 cask '1password'
-cask 'atom'
 cask 'authy'
 cask 'cheatsheet'
 cask 'docker'
