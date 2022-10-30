@@ -3,11 +3,9 @@ tap 'heroku/brew'
 tap 'homebrew/cask'
 
 # Formulas
-brew 'awscli'
 brew 'coreutils'
 brew 'git'
 brew 'go'
-brew 'heroku'
 brew 'jq'
 brew 'mas'
 brew 'maven'
