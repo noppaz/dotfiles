@@ -23,7 +23,6 @@ brew 'yq'
 # Casks
 cask '1password'
 cask 'authy'
-cask 'cheatsheet'
 cask 'docker'
 cask 'google-chrome'
 cask 'gpg-suite-no-mail'
