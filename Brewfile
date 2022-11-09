@@ -4,6 +4,7 @@ tap 'homebrew/cask'
 
 # Formulas
 brew 'coreutils'
+brew 'duckdb'
 brew 'git'
 brew 'go'
 brew 'jq'
