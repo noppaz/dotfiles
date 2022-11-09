@@ -30,13 +30,13 @@ cask 'iterm2'
 cask 'postgres'
 cask 'postman'
 cask 'slack'
-cask 'spotify'
 cask 'tableplus'
 cask 'visual-studio-code'
 
+# Fun and creativity
+cask 'adobe-creative-cloud'
+cask 'spotify'
+cask 'zwift'
+
 # App Store items
 mas 'Magnet', id: 441258766
-
-# Games and creativity
-cask 'adobe-creative-cloud'
-cask 'zwift'
