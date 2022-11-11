@@ -36,6 +36,7 @@ cask 'visual-studio-code'
 # Fun and creativity
 cask 'adobe-creative-cloud'
 cask 'spotify'
+cask 'steam'
 cask 'zwift'
 
 # App Store items
