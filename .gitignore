@@ -1,3 +1,4 @@
 # In this file you can puth exports, aliases, evals and such which you don't want to install immediately on a fresh computer
 # Oh My Zsh will load all files with .zsh
+.gitconfig_local
 config.local.zsh

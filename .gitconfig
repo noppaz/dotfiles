@@ -4,6 +4,15 @@
 [user]
 	name = Noah Holm
 	email = 32292420+noppaz@users.noreply.github.com
-	signingkey = 81B94F7C4B5AD051
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHM2VV328FR1OjgcL680yUKjJKfNgNzObqZiTRydsfRA
 [commit]
 	gpgsign = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.dotfiles/.git_allowed_signers
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
+[include]
+	path = .gitconfig_local ; work config etc
