@@ -1,5 +1,4 @@
 # Taps
-tap 'heroku/brew'
 tap 'homebrew/cask'
 
 # Formulas
