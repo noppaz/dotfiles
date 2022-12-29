@@ -33,6 +33,7 @@ cask 'visual-studio-code'
 
 # Fun and creativity
 cask 'adobe-creative-cloud'
+cask 'adobe-digital-editions'
 cask 'spotify'
 cask 'steam'
 cask 'zwift'
