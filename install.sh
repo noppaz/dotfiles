@@ -3,7 +3,10 @@
 echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add homebrew to shell
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Update Homebrew recipes
 brew update
