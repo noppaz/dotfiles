@@ -2,7 +2,10 @@
 tap 'homebrew/cask'
 
 # Formulas
+brew 'colima'
 brew 'coreutils'
+brew 'docker-compose'
+brew 'docker'
 brew 'duckdb'
 brew 'git'
 brew 'go'
@@ -22,7 +25,6 @@ brew 'yq'
 # Casks
 cask '1password'
 cask 'authy'
-cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
