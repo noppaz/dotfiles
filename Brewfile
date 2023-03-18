@@ -1,6 +1,3 @@
-# Taps
-tap 'homebrew/cask'
-
 # Formulas
 brew 'colima'
 brew 'coreutils'
