@@ -11,6 +11,10 @@
 .mypy_cache
 __pycache__
 
+# Go
+go.work
+go.work.sum
+
 # IDE #
 ############
 .vscode
