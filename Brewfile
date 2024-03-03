@@ -25,6 +25,7 @@ cask 'postman'
 cask 'slack'
 cask 'tableplus'
 cask 'visual-studio-code'
+cask 'veracrypt'
 
 # Fun and creativity
 cask 'adobe-creative-cloud'
