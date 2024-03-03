@@ -37,5 +37,12 @@ go get github.com/golang/lint/golint
 # ln -s $docker_etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
 # ln -s $docker_etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 
+# 1Password SSH agent
+mkdir -p $HOME/.ssh
+cat >> $HOME/.ssh/config <<EOF
+Host *
+	IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+EOF
+
 # Set macOS preferences - reloads shell
 source .macos
