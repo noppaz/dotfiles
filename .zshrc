@@ -109,3 +109,6 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 colima completion zsh > "${fpath[1]}/_colima"
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
