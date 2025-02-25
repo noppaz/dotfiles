@@ -14,6 +14,7 @@ brew 'parquet-cli'
 brew 'pipenv'
 brew 'pyenv'
 brew 'tree'
+brew 'uv'
 brew 'wget'
 brew 'yq'
 
