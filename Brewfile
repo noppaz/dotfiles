@@ -29,6 +29,7 @@ cask 'slack'
 cask 'tableplus'
 cask 'visual-studio-code'
 cask 'veracrypt'
+cask 'warp'
 
 # Fun and creativity
 cask 'adobe-creative-cloud'
