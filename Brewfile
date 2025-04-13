@@ -34,6 +34,7 @@ cask 'warp'
 # Fun and creativity
 cask 'adobe-creative-cloud'
 cask 'adobe-digital-editions'
+cask 'calibre'
 cask 'spotify'
 cask 'steam'
 cask 'zwift'
