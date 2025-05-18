@@ -20,7 +20,6 @@ brew 'yq'
 
 # Casks
 cask '1password'
-cask 'authy'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
