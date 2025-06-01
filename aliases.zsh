@@ -8,7 +8,7 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 
 # Docker
-alias dc="docker compose"
+alias dc="docker-compose"
 alias dps="docker ps"
 alias dpsa="docker ps -a"
 
