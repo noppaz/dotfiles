@@ -101,7 +101,6 @@ export LANG=en_US.UTF-8
 
 
 # Colima
-# colima completion zsh > $(brew --prefix)/share/zsh/site-function/_colima
 export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 
 # fzf
