@@ -107,4 +107,4 @@ export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # warp
-printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "bash" }}\x9c'
+printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
