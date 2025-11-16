@@ -1,6 +1,5 @@
 [core]
 	excludesfile = ~/.dotfiles/.gitignore_global
-	editor = code --wait --new-window
 [user]
 	name = Noah Holm
 	email = 32292420+noppaz@users.noreply.github.com
