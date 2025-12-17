@@ -9,6 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
 # Enable completions
 autoload -Uz compinit && compinit
@@ -101,10 +102,7 @@ export LANG=en_US.UTF-8
 
 
 # Colima
-export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+# export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# warp
-printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
