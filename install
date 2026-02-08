@@ -22,6 +22,10 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink git config file
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
+# Ghostty config
+mkdir -p $HOME/.config/ghostty
+ln -sfnv $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
+
 # Add Golang folders
 mkdir $HOME/go
 go get golang.org/x/tools/cmd/godoc
