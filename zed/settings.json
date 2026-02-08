@@ -1,0 +1,80 @@
+{
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-opus-4.6",
+    },
+    "default_profile": "write",
+    "model_parameters": [],
+  },
+  "ui_font_size": 16,
+  "ui_font_family": ".SystemUIFont",
+  "buffer_font_size": 16,
+  "buffer_font_family": "MesloLGS Nerd Font Mono",
+  "buffer_line_height": "comfortable",
+  "tab_size": 4,
+  "gutter": {
+    "line_numbers": true,
+  },
+  "relative_line_numbers": "enabled",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Frappé",
+    "dark": "Catppuccin Mocha",
+  },
+  "icon_theme": "Zed (Default)",
+  "vim_mode": true,
+  "which_key": {
+    "enabled": true,
+  },
+  "jupyter": {
+    "enabled": false,
+  },
+  "languages": {
+    "JavaScript": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+    "TypeScript": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+    "TSX": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+    "JSON": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+    "JSONC": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+    "CSS": {
+      "formatter": {
+        "language_server": {
+          "name": "biome",
+        },
+      },
+    },
+  },
+}
