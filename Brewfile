@@ -1,9 +1,9 @@
 # Formulas
 brew 'colima'
 brew 'coreutils'
+brew 'docker'
 brew 'docker-buildx'
 brew 'docker-compose'
-brew 'docker'
 brew 'duckdb'
 brew 'fzf'
 brew 'git'
@@ -19,6 +19,8 @@ brew 'yq'
 
 # Casks
 cask '1password'
+cask 'codex'
+cask 'codex-app'
 cask 'firefox'
 cask 'ghostty'
 cask 'google-chrome'
