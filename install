@@ -30,6 +30,9 @@ ln -sfnv $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
 mkdir -p $HOME/.config/zed
 ln -sfnv $HOME/.dotfiles/zed/settings.json $HOME/.config/zed/settings.json
 
+# Neovim config
+ln -sfnv $HOME/.dotfiles/nvim $HOME/.config/nvim
+
 # Add Golang folders
 mkdir $HOME/go
 go get golang.org/x/tools/cmd/godoc
