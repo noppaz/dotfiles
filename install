@@ -26,6 +26,10 @@ ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 mkdir -p $HOME/.config/ghostty
 ln -sfnv $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
 
+# Zed config
+mkdir -p $HOME/.config/zed
+ln -sfnv $HOME/.dotfiles/zed/settings.json $HOME/.config/zed/settings.json
+
 # Add Golang folders
 mkdir $HOME/go
 go get golang.org/x/tools/cmd/godoc
