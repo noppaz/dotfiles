@@ -15,6 +15,11 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Create XDG base directories
+for dir in "$HOME/.config" "$HOME/.cache" "$HOME/.local/share" "$HOME/.local/state" "$HOME/.local/bin"; do
+  mkdir -p "$dir"
+done
+
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
