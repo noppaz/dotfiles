@@ -109,7 +109,7 @@ export XDG_RUNTIME_DIR=$TMPDIR
 
 
 # Colima
-export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+export DOCKER_HOST="unix://${XDG_CONFIG_HOME}/.colima/default/docker.sock"
 export DOCKER_API_VERSION=1.43
 
 # fzf
