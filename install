@@ -2,6 +2,12 @@
 
 echo "Setting up your Mac..."
 
+# Load env vars
+source $HOME/.dotfiles/.zshenv
+
+# Add homebrew to shell
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Update Homebrew recipes
 brew update
 
@@ -9,32 +15,34 @@ brew update
 brew bundle
 
 # Create XDG base directories
-for dir in "$HOME/.config" "$HOME/.cache" "$HOME/.local/share" "$HOME/.local/state" "$HOME/.local/bin"; do
+for dir in "$XDG_CONFIG_HOME" "$XDG_CACHE_HOME" "$XDG_DATA_HOME" "$XDG_STATE_HOME" "$HOME/.local/bin"; do
   mkdir -p "$dir"
 done
 
 # Install Oh My Zsh if not already installed
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
+if [ ! -d "$ZSH" ]; then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
 fi
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
-rm -rf $HOME/.zshrc
+# Symlink .zshrc
 ln -sfnv $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
-# Symlink git config file
+# Symlink .zshenv
+ln -sfnv $HOME/.dotfiles/.zshenv $HOME/.zshenv
+
+# Git config
 ln -sfnv $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
 # Ghostty config
-mkdir -p $HOME/.config/ghostty
-ln -sfnv $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
+mkdir -p $XDG_CONFIG_HOME/ghostty
+ln -sfnv $HOME/.dotfiles/ghostty/config $XDG_CONFIG_HOME/ghostty/config
 
 # Zed config
-mkdir -p $HOME/.config/zed
-ln -sfnv $HOME/.dotfiles/zed/settings.json $HOME/.config/zed/settings.json
+mkdir -p $XDG_CONFIG_HOME/zed
+ln -sfnv $HOME/.dotfiles/zed/settings.json $XDG_CONFIG_HOME/zed/settings.json
 
 # Neovim config
-ln -sfnv $HOME/.dotfiles/nvim $HOME/.config/nvim
+ln -sfnv $HOME/.dotfiles/nvim $XDG_CONFIG_HOME/nvim
 
 # Add Golang folders
 mkdir -p $HOME/go
