@@ -2,7 +2,7 @@
 
 echo "Setting up your Mac..."
 
-# Load env vars
+# Load env vars (uses $HOME/.dotfiles since $DOTFILES isn't set yet)
 source $HOME/.dotfiles/.zshenv
 
 # Add homebrew to shell
@@ -25,24 +25,24 @@ if [ ! -d "$ZSH" ]; then
 fi
 
 # Symlink .zshrc
-ln -sfnv $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -sfnv $DOTFILES/.zshrc $HOME/.zshrc
 
 # Symlink .zshenv
-ln -sfnv $HOME/.dotfiles/.zshenv $HOME/.zshenv
+ln -sfnv $DOTFILES/.zshenv $HOME/.zshenv
 
 # Git config
-ln -sfnv $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+ln -sfnv $DOTFILES/.gitconfig $HOME/.gitconfig
 
 # Ghostty config
 mkdir -p $XDG_CONFIG_HOME/ghostty
-ln -sfnv $HOME/.dotfiles/ghostty/config $XDG_CONFIG_HOME/ghostty/config
+ln -sfnv $DOTFILES/ghostty/config $XDG_CONFIG_HOME/ghostty/config
 
 # Zed config
 mkdir -p $XDG_CONFIG_HOME/zed
-ln -sfnv $HOME/.dotfiles/zed/settings.json $XDG_CONFIG_HOME/zed/settings.json
+ln -sfnv $DOTFILES/zed/settings.json $XDG_CONFIG_HOME/zed/settings.json
 
 # Neovim config
-ln -sfnv $HOME/.dotfiles/nvim $XDG_CONFIG_HOME/nvim
+ln -sfnv $DOTFILES/nvim $XDG_CONFIG_HOME/nvim
 
 # Add Golang folders
 mkdir -p $HOME/go
@@ -54,4 +54,4 @@ mkdir -p $HOME/.docker/cli-plugins
 ln -sfnv $(which docker-buildx) $HOME/.docker/cli-plugins/docker-buildx
 
 # Set macOS preferences - reloads shell
-source .macos
+source $DOTFILES/.macos
