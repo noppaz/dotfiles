@@ -10,3 +10,6 @@ export XDG_RUNTIME_DIR=$TMPDIR
 
 # Path to oh-my-zsh installation
 export ZSH=$XDG_CONFIG_HOME/oh-my-zsh
+
+# Docker CLI
+export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker
