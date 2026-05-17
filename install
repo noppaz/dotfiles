@@ -46,8 +46,6 @@ ln -sfnv $DOTFILES/nvim $XDG_CONFIG_HOME/nvim
 
 # Add Golang folders
 mkdir -p $HOME/go
-go get golang.org/x/tools/cmd/godoc
-go get github.com/golang/lint/golint
 
 # Docker buildx
 mkdir -p $DOCKER_CONFIG/cli-plugins
