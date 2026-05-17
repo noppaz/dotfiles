@@ -19,5 +19,5 @@ Dotfiles for macOS. Mainly based on [Dries Vints](https://github.com/driesvints/
    ```
 1. Open 1Password, sign in, and enable the SSH agent: **Settings → Developer → Use the SSH agent**
 1. Clone this repo: `git clone git@github.com:noppaz/dotfiles.git ~/.dotfiles`
-1. Run `~/.dotfiles/install`
+1. Run `./install`
 1. Restart your computer to finalize the process
