@@ -93,7 +93,7 @@ export LANG=en_US.UTF-8
 
 # Colima
 export DOCKER_HOST="unix://${XDG_CONFIG_HOME}/colima/default/docker.sock"
-export DOCKER_API_VERSION=1.43
+export DOCKER_API_VERSION=1.44
 
 # fzf
 source <(fzf --zsh)
