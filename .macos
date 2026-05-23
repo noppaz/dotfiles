@@ -138,6 +138,16 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightC
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
+# Trackpad: swipe between pages with two fingers (scroll left/right)
+defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
+
+# Trackpad: set tracking speed to 7/10 in the UI
+defaults write NSGlobalDomain com.apple.trackpad.scaling -float 1.5
+
+# Trackpad: set click pressure to Medium (0 = Light, 1 = Medium, 2 = Firm)
+defaults write NSGlobalDomain com.apple.trackpad.firstClickThreshold -int 1
+defaults write NSGlobalDomain com.apple.trackpad.secondClickThreshold -int 1
+
 # Disable “natural” (Lion-style) scrolling
 # defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
