@@ -1,0 +1,11 @@
+# Formulas
+
+# Casks
+cask 'macfuse'
+cask 'veracrypt'
+cask 'adobe-creative-cloud'
+cask 'adobe-digital-editions'
+cask 'calibre'
+cask 'steam'
+cask 'zwift'
+

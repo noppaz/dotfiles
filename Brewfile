@@ -29,19 +29,9 @@ cask 'codex-app'
 cask 'firefox'
 cask 'ghostty'
 cask 'google-chrome'
-cask 'macfuse'
 cask 'slack'
-cask 'veracrypt'
 cask 'visual-studio-code'
-cask 'warp'
-
-# Fun and creativity
-cask 'adobe-creative-cloud'
-cask 'adobe-digital-editions'
-cask 'calibre'
-cask 'spotify'
-cask 'steam'
-cask 'zwift'
+cask 'zed'
 
 # App Store items
 mas 'Magnet', id: 441258766
