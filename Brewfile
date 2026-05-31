@@ -24,6 +24,7 @@ brew 'yq'
 
 # Casks
 cask '1password'
+cask '1password-cli'
 cask 'codex'
 cask 'codex-app'
 cask 'firefox'
