@@ -1,8 +1,7 @@
 # Formulas
 
 # Casks
-cask 'macfuse'
-cask 'veracrypt'
+cask 'veracrypt-fuse-t'
 cask 'adobe-creative-cloud'
 cask 'adobe-digital-editions'
 cask 'calibre'
