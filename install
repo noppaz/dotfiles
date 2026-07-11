@@ -50,6 +50,7 @@ mkdir -p $HOME/go
 # Docker buildx
 mkdir -p $DOCKER_CONFIG/cli-plugins
 ln -sfnv $(which docker-buildx) $DOCKER_CONFIG/cli-plugins/docker-buildx
+ln -sfnv $(brew --prefix)/opt/docker-compose/bin/docker-compose $DOCKER_CONFIG/cli-plugins/docker-compose
 
 # Set macOS preferences - reloads shell
 source $DOTFILES/.macos
