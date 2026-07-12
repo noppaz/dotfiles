@@ -31,6 +31,7 @@ cask 'firefox'
 cask 'ghostty'
 cask 'google-chrome'
 cask 'slack'
+cask 'spotify'
 cask 'visual-studio-code'
 cask 'zed'
 
